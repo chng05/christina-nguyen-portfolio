@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navlogo">Christina Nguyen Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Menu <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="index.html">About</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="photography.html">Photography</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <header class="hero-banner other-banner">
+        <h2>Photography</h2>
+    </header>
+
+    <!-- Projects + Cards -->
+    <section class="card-section">
+        <div class="container">
+            <div class="card-grid">
+                <div class="card">
+                    <img src="Assets/gasstation.png" alt="Night photograph of an isolated gas station with neon lights on and light trails from a moving car.">
+                    <h2>A Lonely Gas Plus</h2>
+                    <p>Calgary, AB</p>
+                    <p>2021</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/highway.png" alt="Night photograph of a busy highway by a lake at sunset, with clouds in the sky and faint city lights visible in the distance.">
+                    <h2>Safe Place</h2>
+                    <p>Calgary, AB</p>
+                    <p>2021</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/sunset.png" alt="Photograph of a silhouette of a person standing on a hill next to a bench, with a row of power lines, set against a colorful sunset backdrop.">
+                    <h2>Powerlines & Sunsets</h2>
+                    <p>Calgary, AB</p>
+                    <p>2021</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/window.png" alt="Photograph silhouette of a woman against a bright window inside a ferry, with leading lines of lights on the ceiling.">
+                    <h2>Waiting</h2>
+                    <p>Vancouver, BC</p>
+                    <p>2021</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/beach.png" alt="Photograph of a beach with a focus on a little girl playing in the sand.">
+                    <h2>Inner Child</h2>
+                    <p>Vancouver, BC</p>
+                    <p>2021</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/fall.png" alt="Photograph of trees in autumn near a pond, with sunlight peeking through the branches and leaves scattered on the ground.">
+                    <h2>September</h2>
+                    <p>Calgary, AB</p>
+                    <p>2022</p>
+                    <p>Camera: Nikon D3500</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>CN</h3>
+                    <p>Graphic Designer</p>
+                    <p>&amp; Photographer</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Connect with me!</h3>
+                    <p>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/stina.yen/" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/christina-n-75a688154/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Christina Nguyen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top-btn" title="Back to Top">↑</button>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

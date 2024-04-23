@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navlogo">Christina Nguyen Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Menu <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="index.html">About</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="photography.html">Photography</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner -->
+        <header class="hero-banner">
+            <img src="Assets/hero-banner.png" alt="Signature of Christina Nguyen" class="hero-image">
+        </header>
+
+        <!-- About Me Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="selfie-container">
+                    <div class="grid-container">
+                        <!-- Image Column -->
+                        <div class="image-column">
+                            <img src="Assets/selfie1.jpg" alt="Black and white selfie of Christina Nguyen" class="selfie-image">
+                        </div>
+
+                        <!-- Text Column -->
+                        <div class="text-column">
+                            <h2>Hey!</h2>
+                            <p>My name is Christina. I'm a Graphic Design student at <a href="https://www.sait.ca/" target="_blank" rel="noopener noreferrer"><abbr title="Southern Alberta Institute Of Technology">SAIT</abbr></a>, an amateur photographer, and a music lover. Get to know me and check out the projects I have worked on during my creative journey as a student.</p>
+
+                            <!-- Accordion Section -->
+                            <section class="accordion-section">
+                                <div class="container">
+                                    <h2>About Me</h2>
+
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <!-- Accordion Item 1 -->
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                                                <h3>What inspired you to pursue Graphic Design?</h3>
+                                                <span class="accordion-icon">+</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                <p>My passion for art, problem-solving, and creation!</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Accordion Item 2 -->
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                                                <h3>How do you approach a project?</h3>
+                                                <span class="accordion-icon">+</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                <p>As a visual thinker, sketching and doodling.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Accordion Item 3 -->
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                                                <h3>What fuels your creativity?</h3>
+                                                <span class="accordion-icon">+</span>
+                                            </div>
+                                            <div class="accordion-content">
+                                                <p>Life, music, and other inspiring creatives!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div> <!-- End of Text Column -->
+                    </div> <!-- End of Grid Container -->
+                </div> <!-- End of Selfie Container -->
+            </div> <!-- End of Container -->
+        </section> <!-- End of Content Section -->
+    </main> <!-- End of Main Content -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Information -->
+                <div class="footer-info">
+                    <h3>CN</h3>
+                    <p>Graphic Designer</p>
+                    <p>&amp; Photographer</p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Contact -->
+                <div class="footer-contact">
+                    <h3>Connect with me!</h3>
+                    <p>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/stina.yen/" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/christina-n-75a688154/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+                    </p>
+                </div>
+            </div> <!-- End of Footer Content -->
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Christina Nguyen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer> <!-- End of Footer Section -->
+
+    <!-- Back-to-Top Button -->
+    <button id="back-to-top-btn" title="Back to Top">↑</button>
+
+    <!-- JavaScript File -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
